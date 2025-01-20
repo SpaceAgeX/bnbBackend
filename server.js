@@ -3,8 +3,9 @@ const app = express();
 
 // Define a route for GET requests
 app.get('/', (req, res) => {
-    res.send('Boost BNB');
+    res.send('Boost BNB!');
 });
+
 
 // Start the server
 const PORT = 8080; // Port to match NGINX proxy
