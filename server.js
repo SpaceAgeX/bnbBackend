@@ -3,7 +3,7 @@ const app = express();
 
 // Define a route for GET requests
 app.get('/', (req, res) => {
-    res.send('Hello, World!');
+    res.send('Boost BNB');
 });
 
 // Start the server
